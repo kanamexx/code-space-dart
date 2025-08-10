@@ -1,0 +1,18 @@
+{
+  "name": "dart project on cloud run",
+  "image": "dart:stable",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.dart-code",
+        "dart-code.flutter",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
